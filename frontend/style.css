@@ -2,8 +2,11 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    text-decoration:none;
 }
-  
+body {
+  background: #072e4c;
+}
 .body-text {
     display: flex;
     font-family: "Montserrat", sans-serif;
@@ -13,12 +16,15 @@
 }
  
 nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    min-height: 8vh;
-    background-color: #072e4c;
-    font-family: "Montserrat", sans-serif;
+  position: fixed;
+  width: 100%;
+  margin-top: 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  background-color: #072e4c;
+  font-family: "Montserrat", sans-serif;
 }
   
 .heading {
@@ -29,10 +35,10 @@ nav {
 }
   
 .nav-links {
-    display: flex;
-    padding: 0px 20px 0px 20px;
-    /*justify-content: space-between;*/
-    width: 30%;
+  display: flex;
+  padding: 0px 20px 0px 20px;
+  /*justify-content: space-between;*/
+  width: 30%;
 }
   
 .nav-links li {
@@ -56,6 +62,21 @@ nav {
     background-color: #4caf50;
 }
 
+.navbar.sticky{
+  padding: 10px 0;
+  background: #04AA6D;
+}
+
+/* Styling for Home Page */
+.home {
+  display: flex;
+    background: red;
+    height: 100vh;
+    color: beige;
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+}
 
 /*  Styling for login form page */
 /**/
